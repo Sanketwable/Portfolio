@@ -21,6 +21,7 @@
       <meta name="author" content="Wable Sanket" />
       <!--Social Media icons--> 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
       <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
       <link rel="icon" type="image/png" href="logo.png">
       <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -40,15 +41,22 @@
       <!-- Modernizr JS -->
       <script src="js/modernizr-2.6.2.min.js"></script>
    </head>
-   <body>
-       <canvas id="canvas"></canvas>
+   <body style=
+   "background-image: url('images/background.jpg');
+   background-position:top;
+   background-color: #000000;
+   background-repeat: no-repeat repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;">
+   <div id="large-header" class="large-header" >
+         <canvas id="demo-canvas"></canvas>
       <div id="colorlib-page">
          <div class="container-wrap">
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> 
             <!----Side bar--->
             <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
                <div class="text-center">
-                  <div class="author-img" style="background-image: url(images/IMG_-wl1xai.jpg);"></div>
+                  <div class="author-img" style="background-image: url(images/dp.jpg);"></div>
                   <div class="nnp">
                   <style>
                      .nnp:hover {
@@ -56,7 +64,7 @@
                        transition: transform 0.1s;
                      }
                      </style>
-                  <h1 id="colorlib-logo"><a href="https://sanketwable.github.io/Portfolio/">Wable Sanket</a></h1>
+                  <h1 id="colorlib-logo"><a href="https://sanketwable.github.io/Portfolio/"><span style="font-size: 30px; color: rgb(255, 255, 255);">Wable Sanket</span></a></h1>
                   </div>
                </div>
                <nav id="colorlib-main-menu" role="navigation" class="navbar">
@@ -69,7 +77,9 @@
                                 transition: transform 0.1s;
                               }
                               </style>
-                        <li><a href="#" data-nav-section="about">About</a></li>
+                        <li>
+                           <a href="#" data-nav-section="about">About</a>
+                        </li>
                         </div>
                         <div class="nnp">
                            <style>
@@ -137,12 +147,49 @@
                            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                               <div class="col-md-12">
                                  <div class="about-desc">
-                                    <h1>Wable <span style="color: rgb(9, 159, 247)">Sanket</span></h1>
+                                    <h1>
+                                       <div style="text-align: right;">
+                                       <span style="color: rgb(255, 255, 255); font-size: 70px;"><b>H</b>ello <span style="color:rgb(255, 255, 255); font-size: 30px;">I'am&nbsp&nbsp&nbsp</span><br></span><span style="color: rgb(172, 245, 255); font-size: 130px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Wable</b><br></span><span style="color: rgb(172, 245, 255); font-size: 130px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Sanket</b></span>
+                                       </div>
+                                    </h1>
                                     <hr>
-                                    <p>Software Developer | Ethical Hacker | CSE, NIT Hamirpur</p>
+                                    
+                                    <p>
+                                       <span style="color: rgb(157, 232, 255); font-size: 15px;">
+                                       Software Developer | Ethical Hacker | CSE, National Institute of Technology, Hamirpur
+                                    </span>
+                                 </p>
+                                    <hr>
                                  </div>
                               </div>
                            </div>
+                           <div class="row">
+                              <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                 <div class="hire1">
+                                    <h2><span style="color:rgba(255, 255, 255, 0.5); font-size: 45px;">
+                                       <b>ABOUT</b>
+                                       <br>
+                                       <br>
+                                       <br>
+                                       <span style="color: aliceblue;font-size: 15px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                       <i>I am proficient in C++, Golang and DSA. I  also like to develope Web apps. I like to solve to various problems on &nbsp<a href="https://www.codechef.com/users/sanket_wable">
+                                          <img src = 'images/codechef1.png ' width = 20px>
+                                          <span style="color:rgb(255, 255, 255)">Codechef</span>
+                                       </a> &nbspand&nbsp <a href="https://www.codechef.com/users/sanket_wable">
+                                          <img src = 'images/codeforces.png ' width = 20px>
+                                          <span style="color:rgb(255, 255, 255)">Codeforces</span>
+                                       </a>.  I love to develope tool which make things easier. I can also verify various attack as a Ethical Hacker . I use Golang as my Preferred language.
+                                       </i>
+                                    </span>
+                                    </span>
+                                 </h2>
+                                       
+                                 </div>
+                              </div>
+                           </div>
+                           <br>
+                           
+
                            <div class="row">
                               
                               <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
@@ -156,7 +203,7 @@
                                     <a href="cp.html" target="_self">
                                        <div class="services color-5">
                                           <span class="icon2"><i class="fa fa-desktop"></i></span>
-                                          <h3>Programming<br> Profile (CP)</h3>
+                                          <h3><span style="color: rgb(147, 255, 237);">Programming<br> Profile (CP)</h3></span>
                                        </div>
                                  </div>
                                  
@@ -173,7 +220,7 @@
                                  <a href="webdev.html" target="_self" >
                                     <div class="services color-2">
                                        <span class="icon2"><i class="fa fa-code"></i></span>
-                                       <h3>Robotics<br> Projects</h3>
+                                       <h3><span style="color: rgb(255, 145, 145);">Robotics<br> Projects</h3></span>
                                     </div>
                                  </div>
                                  </a>
@@ -189,7 +236,7 @@
                                  <a href="software.html" target="_self" >
                                     <div class="services color-3">
                                        <span class="icon2"><i class="fa fa-terminal"></i></span>
-                                       <h3>Software Development</h3>
+                                       <h3><span style="color: rgb(255, 231, 94);">Software Development</h3></span>
                                     </div>
                                  </div>
                                  </a>
@@ -205,7 +252,7 @@
                                  <a href="android.html" target="_self">
                                     <div class="services color-4">
                                        <span class="icon2"><i class="fa fa-android"></i></span>
-                                       <h3>Ethical <br>Hacking</h3>
+                                       <h3><span style="color: rgb(255, 106, 210);">Ethical <br>Hacking</h3></span>
                                     </div>
                                  </div>
                                  </a>
@@ -221,7 +268,7 @@
                                  <a href="ml.html" target="_self">
                                     <div class="services color-1">
                                        <span class="icon2"><i class="fa fa-user"></i></span>
-                                       <h3>Web Development</h3>
+                                       <h3><span style="color: rgb(88, 146, 255);">Web Development</h3></span>
                                     </div>
                                  </div>
                                  </a>
@@ -230,15 +277,16 @@
                            <div class="row">
                               <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                                  <div class="hire">
-                                    <h2>I want to make things
-                                       that make a difference.</h2>
+                                    <h2><span style="color: aliceblue;">I want to make things
+                                       that will make a difference.</span></h2>
                                        <div class="nnaaa">
                                           <style>
                                              .nnaaa:hover {
-                                               transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                                               transform: scale(1.02); 
                                              }
-                                             </style>
-                                       <a href="https://drive.google.com/file/d/1xtTk5pl9APkr6UQjJaHi5U5X6RnaGpdW/view?usp=sharing" class="btn-hire" style="text-align: center;">Download Resume</a>
+                                          </style>
+                                          
+                                       <a href="https://drive.google.com/file/d/1xtTk5pl9APkr6UQjJaHi5U5X6RnaGpdW/view?usp=sharing" class="btn-hire" style="text-align: center; color:rgb(94, 255, 0);"><b>Download Resume</b></a>
                                        </div>
                                  </div>
                               </div>
@@ -254,16 +302,18 @@
                         <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                            <!--	<span class="heading-meta">My Specialty</span> -->
                             <div class="about-desc">
-                           <h1>Skills</h1>
+                           <h1><span style="color: rgb(190, 171, 0);">
+                              Skills
+                           </span></h1>
                            <hr>
                             </div>
                         </div>
                      </div>
-                     <p>Some of the significant aptitudes which will assist me with achieving your objectives.</p>
+                     <p><span style="color: aliceblue;">Some of the significant aptitudes which will assist me with achieving your objectives.</span></p>
                      <div class="row">
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">C/C++(STL)</h3>
+                              <h3 style="font-weight: 500; color: rgba(0, 162, 255, 0.897);">C/C++(STL)</h3>
                               <div class="progress">
                                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
@@ -274,7 +324,7 @@
                         </div>
                          <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">Algorithms</h3>
+                              <h3 style="font-weight: 500; color: rgb(109, 148, 255);">Algorithms</h3>
                               <div class="progress">
                                  <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
@@ -285,7 +335,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">Python</h3>
+                              <h3 style="font-weight: 500;color: #f56464;">Python</h3>
                               <div class="progress">
                                  <div class="progress-bar color-2" role="progressbar" aria-valuenow="40"
                                     aria-valuemin="0" aria-valuemax="100" style="width:40%">
@@ -296,7 +346,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">Robotics/Arduino/R-pi</h3>
+                              <h3 style="font-weight: 500;color: #ebd142;">Robotics/Arduino/R-pi</h3>
                               <div class="progress">
                                  <div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
@@ -307,7 +357,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">HTML/CSS</h3>
+                              <h3 style="font-weight: 500;color: #c53de0;">HTML/CSS</h3>
                               <div class="progress">
                                  <div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -318,7 +368,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">Java</h3>
+                              <h3 style="font-weight: 500;color: #33d39e;">Java</h3>
                               <div class="progress">
                                  <div class="progress-bar color-5" role="progressbar" aria-valuenow="50"
                                     aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -329,7 +379,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">Golang</h3>
+                              <h3 style="font-weight: 500;color: rgb(109, 148, 255);">Golang</h3>
                               <div class="progress">
                                  <div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
                                     aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -340,7 +390,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">Git</h3>
+                              <h3 style="font-weight: 500;color: #f56464;">Git</h3>
                               <div class="progress">
                                  <div class="progress-bar color-7" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -351,7 +401,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">JavaScript/Nodejs</h3>
+                              <h3 style="font-weight: 500;color: #ebd142;">JavaScript/Nodejs</h3>
                               <div class="progress">
                                  <div class="progress-bar color-3" role="progressbar" aria-valuenow="20"
                                     aria-valuemin="0" aria-valuemax="100" style="width:20%">
@@ -362,7 +412,7 @@
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                            <div class="progress-wrap">
-                              <h3 style="font-weight: 500;">Bash</h3>
+                              <h3 style="font-weight: 500;color: rgba(0, 162, 255, 0.897);">Bash</h3>
                               <div class="progress">
                                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="50"
                                     aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -379,7 +429,7 @@
                      <div class="row">
                            <!--	<span class="heading-meta">My Specialty</span> -->
                             <div class="about-desc">
-                           <h1>GitHub Profile Languages <span style="color: #2a08ee">Pie Chart</span></h1>
+                           <h1><span style="color:azure">GitHub Profile Languages</span> <span style="color: #e95858d5">Pie Chart</span></h1>
                            <hr>
                             </div>
                      </div>
@@ -392,7 +442,7 @@
                      <div class="row">
                         <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                            <div class="about-desc">
-                            <h1>Work <span style="color: #1cb5c9">Experience</span></h1>
+                            <h1><span style="color: #a9c2c5">Work</span> <span style="color: #1cb5c9">Experience</span></h1>
                            <hr>
                             </div>
                         </div>
@@ -407,8 +457,8 @@
                                        <i class="fa fa-user"></i>
                                     </div>
                                     <div class="timeline-label">
-                                       <h2><a href="#">GeeksforGeeks</a> <span>July 2019 - Present</span></h2>
-                                       <p><strong><a href="https://auth.geeksforgeeks.org/user/sanketwable/profile">Campus Ambassador</a></strong><br> To engage in outreach to students at the campus about GeeksforGeeks’s study content, courses, opportunities, and to support all campus workshops by GeeksforGeeks.</p>
+                                       <h2><a href="#" style="color: #51ff00;">GeeksforGeeks</a> <span style="color: bisque;">July 2019 - Present</span></h2>
+                                       <p><strong><a href="https://auth.geeksforgeeks.org/user/sanketwable/profile" >Campus Ambassador</a></strong><br> <span style="color: aliceblue;">To engage in outreach to students at the campus about GeeksforGeeks’s study content, courses, opportunities, and to support all campus workshops by GeeksforGeeks.</span></p>
                                        <p></p>
                                     </div>
                                  </div>
@@ -420,8 +470,8 @@
                                        <i class="fa fa-code"></i>
                                     </div>
                                     <div class="timeline-label">
-                                       <h2><a href="#">Robotics Society - NITH </a> <span>November 2018 - Present</span></h2>
-                                       <p><strong><a href="https://robosocnith.com/current_members.html">Executive Member</a></strong><br>Introduction to basic Robotics.<br>Made some projects and participated in various competitions</p>
+                                       <h2><a href="#" style="color: #a76d00;">Robotics Society - NITH </a> <span style="color: bisque;">November 2018 - Present</span></h2>
+                                       <p><strong><a href="https://robosocnith.com/current_members.html">Executive Member</a></strong><br><span style="color: aliceblue;">Introduction to basic Robotics.<br>Made some projects and participated in various competitions</span></p>
                                        <p></p>
                                     </div>
                                  </div>
@@ -432,8 +482,8 @@
                                        <i class="fa fa-globe"></i>
                                     </div>
                                     <div class="timeline-label">
-                                       <h2><a href="#">CSEC</a> <span>February 2019 - Present </span></h2>
-                                       <p><strong><a href="https://csec.com">Computer Science and Engineering Community</a></strong><br>Scociety handles all the contests and events related to the CSE <br>Contributed to arranging workshops and arranging contests and Hackthon.</p>
+                                       <h2><a href="#">CSEC</a> <span style="color: bisque;">February 2019 - Present </span></h2>
+                                       <p><strong><a href="https://csec.com"><b>Computer Science and Engineering Community</b></a></strong><br><span style="color: aliceblue;">Scociety handles all the contests and events related to the CSE <br>Contributed to arranging workshops and arranging contests and Hackthon.</span></p>
                                     </div>
                                  </div>
                               </article>
@@ -443,8 +493,8 @@
                                        <i class="fa fa-code"></i>
                                     </div>
                                     <div class="timeline-label">
-                                       <h2><a href="#">Campus Connect at Shiksha.com </a> <span>July 2019 - Present</span></h2>
-                                       <p><strong><a href="https://www.facebook.com/groups/322598094760702/">Campus Representative</a></strong><br>Make student across the country aware of the college campus, <br>also other facilities and campus placements and <br>answer their questions</p>
+                                       <h2><a href="#"><span style="color: rgb(233, 221, 52);">Campus Connect at </span><span style="color: rgb(0, 128, 255);">Shiksha.com</span> </a> <span style="color: bisque;">July 2019 - Present</span></h2>
+                                       <p><strong><a href="https://www.facebook.com/groups/322598094760702/">Campus Representative</a></strong><br><span style="color: aliceblue;">Make student across the country aware of the college campus, <br>also other facilities and campus placements and <br>answer their questions</span></p>
                                        <p></p>
                                     </div>
                                  </div>
@@ -468,33 +518,25 @@
                         <div class="col-md-12">
                            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                               <div class="about-desc">
-                               <h1>Contact</h1>
+                               <h1 style="color:honeydew;">Contact</h1>
                               <hr>
                                </div>
-                              <p>On the off chance that you might want to connect with me, be it for investigating innovation, or to simply say hello, don't hesitate to send me an email at <strong><a href = "mailto: sanketwable123@gmail.com">sanketwable123@gmail.com</a>
+                              <p style="color: thistle;">On the off chance that you might want to connect with me, be it for investigating innovation, or to simply say hello, don't hesitate to send me an email at <strong><a href = "mailto: sanketwable123@gmail.com">sanketwable123@gmail.com</a>
                               </strong></p>
+                              <hr>
+                              <span style="color: honeydew; font-size: 40px;">
+                                 Address:<br><span style="color: thistle; font-size:15px; line-height: 0.2px;">Room no: 425, Himadri Hostel, NIT Hamirpur,  Hamipur, Himachal Pradesh, 177005.</span>
+                              </span>
+                              <span style="color: honeydew; font-size: 30px;"><hr>Phone No: &nbsp<span style="color: thistle;font-size: 20px;">+91 9521205830</span></span>
+
+                              
+
                            </div>
                         </div>
                      </div>
                   </div>
                </section>
-               <section class="colorlib-contact" data-section="contact">
-                  <div class="colorlib-narrow-content">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                              <div class="about-desc">
-                               <h3>Address</h3>
-                              <hr>
-                               </div>
-                              <p>Room no: 425, Himadri Hostel,  NIT Hamirpur,  Hamipur, Himachal Pradesh, 177005.
-                              </strong></p>
-                              <p>Mob: +91 9521205830</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </section>
+              
                <!------------Footer------------->
                <section class="colorlib-footer" data-section="footer">
                   <div class="colorlib-narrow-content">
@@ -502,7 +544,7 @@
                         <div class="col-md-12">
                            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                               <div class="hire">
-                                 <p style="text-align: center"><strong>Thanks for having look at my Portfolio</strong></p>
+                                 <p style="text-align: center; color: #a9c2c5;"><strong>Thanks for having look at my Portfolio</strong></p>
                                  <div align=center>
                                     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
                         
@@ -513,9 +555,9 @@
                                        <a href="https://github.com/Sanketwable" style="color: black;" class="fa fa-github"></a>
                                     </p>
                                  </div>
-                                 <p style="text-align: center; margin-bottom: -20px;"><script src="https://www.w3counter.com/tracker.js?id=131171"></script>  &nbsp&nbspVisits to My Portfolio</p>
+                                 <p style="text-align: center; margin-bottom: -20px; color: #a9c2c5;"><script src="https://www.w3counter.com/tracker.js?id=131171"></script>  &nbsp&nbspVisits to My Portfolio</p>
                                  <br>
-                                 <p style="text-align: center; margin-bottom: -20px;"><strong>&copy; No Copyrights, feel free to use this template.</strong></p>
+                                 <p style="text-align: center; margin-bottom: -20px; color: #a9c2c5;"><strong>&copy; No Copyrights, feel free to use this template.</strong></p>
                               </div>
                            </div>
                         </div>
@@ -527,6 +569,11 @@
          </div>
          <!-- end:container-wrap -->
       </div>
+      </div>
+      <script src="js/TweenLite.min.js"></script>
+      <script src="js/EasePack.min.js"></script>
+      <script src="js/demo.js"></script>
+      <script src="./script.js"></script>
       <!-- end:colorlib-page -->
       <!-- jQuery -->
       <script src="js/jquery.min.js"></script>
@@ -543,6 +590,6 @@
       <!-- MAIN JS -->
       <script src="js/main.js"></script>
            <!--canvas js--->
-           <script src="js/canvas.js"></script>
+      
    </body>
 </html>
